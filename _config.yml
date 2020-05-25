@@ -3,20 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 韦阳的博客
-subtitle: 算法码上来
-description: 华东师范大学 | 计算机科学与技术 | 自然语言处理
-keywords: "ECNU NLP DeepLearning AntNLP 韦阳 godweiyang WeiYang 自然语言处理 深度学习 算法码上来"
-author: 韦阳
+title: 轩的博客
+subtitle: 记录学习博客
+description: 计算机科学与技术 | Java开发
+keywords: "个人学习"
+author: Tong
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://godweiyang.com
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#url: https://godweiyang.com
+#root: /
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
 
 # Directory
 source_dir: source
@@ -113,7 +113,7 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: git@github.com:godweiyang/godweiyang.github.io.git
+    github: https://github.com/SeanTong11/SeanTong11.github.io
     # coding: git@e.coding.net:godweiyang/godweiyang.git
   branch: master
 - type: baidu_url_submitter
@@ -140,6 +140,6 @@ live2d:
 
 baidu_url_submit:
   count: 100
-  host: godweiyang.com
+  host: tyxme.pw
   token:  # 填写你的百度统计token，不写也没事
   path: baidu_urls.txt
