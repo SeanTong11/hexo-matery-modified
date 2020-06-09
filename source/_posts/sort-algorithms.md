@@ -16,7 +16,7 @@ categories:
 
 > 关注公众号【算法码上来】，每日算法干货马上就来！
 
-![](/medias/contact.jpg)
+
 
 ## 前言
 

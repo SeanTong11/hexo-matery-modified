@@ -5,7 +5,7 @@
 # Site
 title: 轩的博客
 subtitle: 记录学习博客
-description: 计算机科学与技术 | Java开发
+description: 算法学习 | Java开发
 keywords: "个人学习"
 author: Tong
 language: zh-CN
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: https://godweiyang.com
+#url: blog.tyxme.pw
 #root: /
 #permalink: :year/:month/:day/:title/
 #permalink_defaults:

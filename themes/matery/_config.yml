@@ -16,12 +16,12 @@ menu:
   About:
     url: /about
     icon: fa-user-circle-o
-  Friends:
-    url: /friends
-    icon: fa-address-book
-  Contact:
-    url: /contact
-    icon: fa-comments
+  # Friends:
+  #   url: /friends
+  #   icon: fa-address-book
+  # Contact:
+  #   url: /contact
+  #   icon: fa-comments
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -39,16 +39,18 @@ dream:
   showTitle: true
   title: 欢迎关注
   text: 我搬到谁的隔壁，谁成了我的邻居。鸣谢生命有你参与，笑纳我的邀请。
-  img: https://pic1.zhimg.com/80/v2-0205cde00e314b1414a5e9d94106a431_r.jpg
+#  img: https://pic1.zhimg.com/80/v2-0205cde00e314b1414a5e9d94106a431_r.jpg
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: false
+  enable: true
   showTitle: false
   title: 听听音乐
+  server: netease   #require music platform: netease, tencent, kugou, xiami, baidu
+  id: 615618295     #require song id / playlist id / album id / search keyword
   fixed: false # 开启吸底模式
-  autoplay: true # 是否自动播放
+  autoplay: false # 是否自动播放
   theme: '#542674'
   loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'list' # 音频循环顺序, 可选值: 'list', 'random'
@@ -80,8 +82,8 @@ recommend:
 
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
-favicon: /favicon.png
-logo: /medias/logo.png
+favicon: /zelda.png
+logo: /medias/zelda.png
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -96,11 +98,11 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 792321264
+  # qq: 792321264
   github: SeanTong11
-  weibo: SeanTong11
+  # weibo: SeanTong11
   email: tyx513@163.com
-  zhihu: go
+  # zhihu: go
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -119,9 +121,9 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
   enable: true
-  title: 写作不易，客官能否打赏一杯奶茶？
-  wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  title: 写作不易，如果对你有帮助能否打赏一杯可乐？
+  wechat: /medias/reward/wx.png
+  alipay: /medias/reward/ali.jpg
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
