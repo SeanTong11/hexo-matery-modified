@@ -44,11 +44,9 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   showTitle: false
   title: 听听音乐
-  server: netease   #require music platform: netease, tencent, kugou, xiami, baidu
-  id: 615618295     #require song id / playlist id / album id / search keyword
   fixed: false # 开启吸底模式
   autoplay: false # 是否自动播放
   theme: '#542674'

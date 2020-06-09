@@ -1,23 +1,13 @@
 [
 	{
-		"name": "夜曲",
-		"artist": "周杰伦",
-		"url": "/medias/music/yequ.mp3",
+		"name": "spain",
+		"artist": "Chick Corea",
+		"url": "/medias/music/Spain - Chick Corea,Return to Forever.mp3",
 		"cover": "/medias/music/avatars/yequ.jpg"
 	},{
-		"name": "一路向北",
-		"artist": "周杰伦",
-		"url": "/medias/music/yiluxiangbei.mp3",
+		"name": "Take Five",
+		"artist": "Dave Brubeck",
+		"url": "/medias/music/Take Five - Dave Brubeck.mp3",
 		"cover": "/medias/music/avatars/yiluxiangbei.jpg"
-	},{
-		"name": "来自天堂的魔鬼",
-		"artist": "邓紫棋",
-		"url": "/medias/music/tiantangdemogui.mp3",
-		"cover": "/medias/music/avatars/tiantangdemogui.jpg"
-	},{
-		"name": "倒数",
-		"artist": "邓紫棋",
-		"url": "/medias/music/daoshu.mp3",
-		"cover": "/medias/music/avatars/daoshu.jpg"
 	}
 ]
