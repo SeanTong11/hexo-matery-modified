@@ -274,7 +274,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right,  #33ccff 40%,#33ccff 50%, #ff0000 60%, #ff0000 100%);
+    background-image: linear-gradient(to right,  #50a92a 40%,#50a92a 50%, #50a92a 60%, #50a92a 100%);
     opacity: 1;
 }
 
@@ -860,7 +860,7 @@ article .article-tags .chip {
     font-weight: 400;
     height: 22px;
     line-height: 22px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 

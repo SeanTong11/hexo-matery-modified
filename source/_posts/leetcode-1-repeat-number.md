@@ -1,5 +1,5 @@
 ---
-title: 'leetcode_#1 repeat number'
+title: 'ep1 leetcode 数组中重复的数字'
 top: false
 cover: false
 toc: true
@@ -14,6 +14,64 @@ tags:
 categories:
 - 编程算法
 ---
-  这是我的第一篇leetcode文章，计划先刷刷剑指offer，熟悉一下基本套路，掌握一些高频内容。  
-  # 题目  
+   这是我的第一篇leetcode文章，计划先刷刷剑指offer，熟悉一下基本套路，掌握一些高频内容。  
+  ## 题目 
+  [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)    
+
+找出数组中重复的数字。 
+
+在一个长度为 n 的数组 nums 里的所有数字都在 0～n-1 的范围内。数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。请找出数组中任意一个重复的数字。
+
+示例 1：
+
+输入：
+[2, 3, 1, 0, 2, 5, 3]
+输出：2 或 3 
+ 
+
+限制：
+
+2 <= n <= 100000
+
+## 题解
+### 我提交的代码
+```
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        int n = nums.length;
+        int[] arr = new int[n+1];
+        Arrays.fill(arr, 0);
+        for(int x = 0; x < n; x++ ){
+            if(arr[nums[x]]!=0){
+                return nums[x];
+            }
+            else{
+                arr[nums[x]]++;
+            }
+        }
+        return 0;
+    }
+}
+```
+### 思路 
+1. 可以先将数组排序，前一个和后一个对比。
+2. 使用数组或hashset做哈希表。
+### 他人解法
+1. 使用hashset
+~~~
+class Solution {
+    public int findRepeatNumber(int[] nums) {
+        Set<Integer> set = new HashSet<Integer>();
+        int repeat = -1;
+        for (int num : nums) {
+            if (!set.add(num)) {
+                repeat = num;
+                break;
+            }
+        }
+        return repeat;
+    }
+}
+~~~
+
   
