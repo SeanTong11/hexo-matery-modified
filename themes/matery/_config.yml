@@ -154,7 +154,7 @@ wordCount:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: true
+  enable: false
 explosion:
   enable: false
 firework:
@@ -165,7 +165,7 @@ text:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatars/avatar.jpg
+  avatar: /medias/avatars/avatar.png
   career: 软件工程 | Java开发
   introduction: Java开发学习中
 
@@ -178,18 +178,9 @@ myProjects:
     hexo-matery-modified:
       icon: fa-meetup
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/godweiyang/hexo-matery-modified
+      url: https://github.com/SeanTong11/hexo-matery-modified
       desc: 我的个性化配置过的博客源码，即下即用。
-    ConParser:
-        icon: fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/godweiyang/ConParser
-        desc: 基于dynet的成分句法分析模型整合。
-    ECNU-BeamerTemplate:
-        icon: fa-file-text-o
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/godweiyang/ECNU_BeamerTemplate
-        desc: 基于Latex Beamer的华东师范大学PPT模板。
+
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -206,12 +197,6 @@ mySkills:
     Python:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
-    Pytorch:
-      background: 'linear-gradient(to right, #951213 0%, #961117 100%)'
-      percent: 75%
-    Dynet:
-      background: 'linear-gradient(to right, #F12F12 0%, #F6464F 100%)'
-      percent: 75%
     Java:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 50%
@@ -361,27 +346,7 @@ featureImages:
 - /medias/featureimages/5.jpg
 - /medias/featureimages/6.jpg
 - /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
-- /medias/featureimages/24.jpg
-- /medias/featureimages/25.jpg
-- /medias/featureimages/26.jpg
-- /medias/featureimages/27.jpg
-- /medias/featureimages/28.jpg
+
 
   # default configs that the default policy for every articles/posts
   # default 配置文章的默认转载规则
