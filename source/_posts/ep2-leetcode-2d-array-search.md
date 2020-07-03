@@ -1,10 +1,10 @@
 ---
-title: 'ep1 leetcode 数组中重复的数字'
+title: ep2 leetcode 2d_array_search
 top: false
 cover: false
 toc: true
 mathjax: true
-date: 2020-06-10 21:00:45
+date: 2020-06-12 16:19:24
 password:
 summary:
 tags:
