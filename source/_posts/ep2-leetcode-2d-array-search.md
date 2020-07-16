@@ -14,7 +14,7 @@ tags:
 categories:
 - 编程算法
 ---
-   这是我的第一篇leetcode文章，计划先刷刷剑指offer，熟悉一下基本套路，掌握一些高频内容。  
+     
   ## 题目 
   [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)    
 
